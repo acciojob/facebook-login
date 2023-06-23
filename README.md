@@ -16,9 +16,9 @@ Create a Login page similar to the latest on facebook. An example is given below
 
 ## Styling instructions
 
-1. `body` should have a `background-color` of `#f6f6f6`
+1. `body` should have a `background-color` of `#f6f6f6`. It should have a `display` of `flex`, `justify-content` of `center`, `align-items` of `center` and a `height` of `100vh`
 2. `left` should have a width of `450px`, `margin-top` of 70px and a `display` of `inline-block`
-3. `form` should have the `display` as `inline-block` width as `300px`, `background-color` as `white`, with a `padding` of `20px` and a `border-radius` of `5px`. It should also have a `box-shadow` of `0 0 10px #ccc`
+3. `form` should have the `display` as `flex` width as `300px`, `background-color` as `white`, with a `padding` of `20px` and a `border-radius` of `5px`. It should also have a `box-shadow` of `0 0 10px #ccc`, `flex-direction` of `column` and a `gap` of `10px`
 4. Each input should have a `border` of `1px solid #ccc` and a `border-radius` of `5px` and a `padding` of `10px`
 5. The button should have a `background-color` of `#1877f2`, `border-radius` of `5px`, `padding` of `10px 20px` and should take up all the width of the right container
 6. The link should not have any underline and should have a color of `#1877f2`
